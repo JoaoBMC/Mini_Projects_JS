@@ -9,7 +9,7 @@ main{
 .container{
     display: flex;
     flex-direction: column;
-    background: #5001c5;
+    background: #1a237e;
     width: 400px;
     height: 600px;
     align-items: center;
@@ -27,6 +27,7 @@ main{
     box-shadow: 0 0 10px none;    
     font: bold 2.5rem serif;
     margin-bottom: 20px;
+    color: aliceblue;
 }
 
 .input{
@@ -50,14 +51,15 @@ main{
 .input label 
 {
     font: bold 1.5rem serif;
+    color: aliceblue;
 }
 
 button{
     width: 300px;
     height: 50px;
     font: bold 1.2rem serif;
-    background:  #8940f9;;
-    color: rgb(0, 0, 0);
+    background:  #000051;;
+    color:aliceblue;
     outline: none;
     border-radius: 5px;
     cursor: pointer;
@@ -73,7 +75,7 @@ button{
     font: italic 1.5rem serif;
     box-shadow: 0px, 0px, 10px black;
     background:rgb(0, 0, 0);
-    color: #8940f9;
+    color: #534bae;
     padding: 20px;
     box-sizing: border-box;
     user-select: none;
